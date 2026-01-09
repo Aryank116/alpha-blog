@@ -1,0 +1,24 @@
+<h1>This is the listting page</h1>
+<table>
+    <th>
+        <tr>
+            <th> Tilte </th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+
+    </th>
+    <tbody> <%@articles.each do|article|%>
+                <tr>
+                    <td> <%= article.title%> </td>
+                    <td> <%= article.description%></td>
+                    <td>spmething</td>
+                </tr>
+            <% end %>
+    </tbody>
+
+
+
+
+
+</table>
