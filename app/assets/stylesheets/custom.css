@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgba(0, 126, 82, 0.95) !important;
+}
+.nav-link {
+    color:white !important;
+}
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color :white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-style: italic;
+}
+#home-container {
+    margin: 25px;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 1200px;
+}

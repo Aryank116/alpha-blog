@@ -1,3 +1,11 @@
-<h1>This is the home page</h1>
-<%= link_to 'Article', articles_path%> |
-<%= link_to 'About', about_path%>
+<div class="container" id = "home-container">
+    <div class="p-5 mb-4 rounded-3 hero-section"
+     style="background-image: url(<%= asset_path 'jumbo-copy.jpg' %>)">
+  <div class="container-fluid py-5 text-white">
+    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+    <p class="fs-4">Using a series of utilities…</p>
+    <button class="btn btn-primary btn-lg">Sign up</button>
+  </div>
+</div>
+
+</div>
